@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Correo electrónico",
+    "pattern": "(letra|digito|\".\"|\"_\"|\"-\")+ \"@\" (letra|digito|\".\"|\"_\"|\"-\")+ \".\" letra{2,4}",
+    "semantic_key": "correo",
+    "enabled": true
+  },
+  {
+    "name": "Teléfono",
+    "pattern": "(\"+\" digito{1,3} \" \")? digito{7,15}",
+    "semantic_key": "telefono",
+    "enabled": true
+  },
+  {
+    "name": "Fecha ISO (YYYY-MM-DD)",
+    "pattern": "[0-9]{4} \"-\" [0-9]{2} \"-\" [0-9]{2}",
+    "semantic_key": "fecha_iso",
+    "enabled": true
+  },
+  {
+    "name": "Fecha DD/MM/YYYY",
+    "pattern": "[0-9]{2} \"/\" [0-9]{2} \"/\" [0-9]{4}",
+    "semantic_key": "fecha_dmy",
+    "enabled": true
+  },
+  {
+    "name": "Placa vehicular",
+    "pattern": "[A-Z]{3} \"-\" [0-9]{3}",
+    "semantic_key": "placa",
+    "enabled": true
+  },
+  {
+    "name": "Identificador",
+    "pattern": "(letra|\"_\") (letra|digito|\"_\")*",
+    "semantic_key": null,
+    "enabled": true
+  }
+]
