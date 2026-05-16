@@ -108,7 +108,3 @@ Ejemplo de expresión:
 ```
 Expresión DSL → Lexer → Tokens → Parser → AST → Thompson → AFND → Subconjuntos → AFD → Simulador
 ```
-
-## Licencia
-
-Proyecto académico — Teoría de Lenguajes Formales.
